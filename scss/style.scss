@@ -2,14 +2,73 @@
 @use 'reset';
 
 body {
-  font-family: $font-stack--reading;
+  background-color: #041a34;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: $font-stack--headings;
+h1
+{
+color: #4de3fb;
+font-family: 'Lobster Two', cursive;
+font-size: 40px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2
+{
+  color:#4de3fb;
+  font-family: 'Lobster Two', cursive;
+  font-size: 40px;
+}
+
+h2 {
+  text-align: center;
+}
+
+p{
+  color:#4de3fb;
+  font-family: 'Bangers', cursive;
+  font-size: 20px;
+}
+
+footer{
+  color:#27aef3;
+}
+
+ul{
+  color:#4de3fb;
+  font-family: 'Lobster Two', cursive;
+  font-size: 40px;
+}
+
+ul {
+  text-align: center;
+}
+
+ol{
+  color: #4de3fb;
+  font-family: 'Lobster Two', cursive;
+  font-size: 40px;
+}
+
+ol {
+  text-align: center;
+}
+
+a{
+  color:#27aef3;
+  font-family: 'Lobster Two', cursive;
+}
+
+footer{
+  color:#27aef3;
+  font-family: 'Lobster Two', cursive;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
